@@ -1,0 +1,141 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    background-color: slategrey;
+    color: white;
+}
+  
+h1 {
+    /*   font-style: italic;
+    color: #373fff; */
+    font-family: verdana, arial, sans-serif; 
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#gameButtonArea > button {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+}
+
+.hidden {
+    display: none;
+}
+
+#button1 {
+    background: lightgreen;
+}
+
+#button1:active, #button1.lit {
+    background: green;
+}
+
+#button1:active > img, #button1.lit > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#button2 {
+    background: lightblue;
+}
+
+#button2:active, #button2.lit {
+    background: blue;
+}
+
+#button2:active > img, #button2.lit > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#button3 {
+    background: pink;
+}
+
+#button3:active, #button3.lit {
+    background: red;
+}
+
+#button3:active > img, #button3.lit > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#button4 {
+    background: lightyellow;
+}
+
+#button4:active, #button4.lit {
+    background: yellow;
+}
+
+#button4:active > img, #button4.lit > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#button5 {
+    background: peachpuff;
+}
+
+#button5:active, #button5.lit {
+    background: sienna;
+}
+
+#button5:active > img, #button5.lit > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#button6 {
+    background: plum;
+}
+
+#button6:active, #button6.lit {
+    background: purple;
+}
+
+#button6:active > img, #button6.lit > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#difficultySelection {
+    display: inline;
+}
+
+#startBtn {
+    color: white;
+    background: green;
+}
+
+#stopBtn {
+    color: white;
+    background: red;
+}
+
+.inline {
+    display: inline;
+}
+
+img {
+    display: none;
+}
+
+#timer {
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
