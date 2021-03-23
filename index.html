@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Lights and Sounds - Game</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="./script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Lights and Sounds Memory Game</h1>
+    
+    <p>
+      Can you remember the order that the sequence is played in? Click the start button 
+      and try to play back the button order based on the audio and visual cue prompts. You will only have a certain 
+      amount of time to make each guess based on the difficulty you chose, and can only make a total of 3 mistakes. Good luck!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+
+    <div id="difficultySelection">
+        <label for="difficulty">Select a Difficulty:</label>
+        <select name="difficulty" id="difficulty">
+            <option value="normal">normal</option>
+            <option value="hard">hard</option>
+            <option value="easy">easy</option>
+        </select>
+    </div>
+
+    <div id="timer" class="hidden">
+        <p id="timerText">Time Remaining(seconds): </p>
+        <p id="timerDisplay">0</p>
+    </div>
+    
+    <div id="gameButtonArea">
+        <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()">
+            <img src="https://cdn.glitch.com/b5853360-08dc-42f6-8265-3e5c56db5f14%2Fcow.jpeg?v=1616538743642" alt="Cow">
+        </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+            <img src="https://cdn.glitch.com/b5853360-08dc-42f6-8265-3e5c56db5f14%2Fcat.jpeg?v=1616538724447" alt="Cat">
+    </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+            <img src="https://cdn.glitch.com/b5853360-08dc-42f6-8265-3e5c56db5f14%2Fdog.jpeg?v=1616538749059" alt="Dog">
+    </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+            <img src="https://cdn.glitch.com/b5853360-08dc-42f6-8265-3e5c56db5f14%2Fhamster.jpeg?v=1616538753145" alt="Hamster">
+    </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()">
+            <img src="https://cdn.glitch.com/b5853360-08dc-42f6-8265-3e5c56db5f14%2Frabbit.jpeg?v=1616538759521" alt="Rabbit">
+    </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()">
+            <img src="https://cdn.glitch.com/b5853360-08dc-42f6-8265-3e5c56db5f14%2Fchicken.jpeg?v=1616538737146" alt="Chicken">
+    </button>
+    </div>
+    
+  </body>
+</html>
