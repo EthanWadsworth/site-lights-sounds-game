@@ -45,6 +45,7 @@ Here's a walkthrough of implemented user stories:
 Features of the game including starting and stopping, losing, and clicking on each of the buttons:
 ![](https://i.imgur.com/hCbPArO.gif)
 
+
 Gif of winning the game:<br>
 ![](https://i.imgur.com/xD6jsmK.gif)
 
