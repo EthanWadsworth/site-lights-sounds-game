@@ -12,39 +12,51 @@ Link to project: <https://glitch.com/edit/#!/fork-blossom-college>
 
 The following **required** functionality is complete:
 
-- [ ] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-- [ ] "Start" button toggles between "Start" and "Stop" when clicked.
-- [ ] Game buttons each light up and play a sound when clicked.
-- [ ] Computer plays back sequence of clues including sound and visual cue for each button
-- [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
-- [ ] User wins the game after guessing a complete pattern
-- [ ] User loses the game after an incorrect guess
+- [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+- [x] "Start" button toggles between "Start" and "Stop" when clicked.
+- [x] Game buttons each light up and play a sound when clicked.
+- [x] Computer plays back sequence of clues including sound and visual cue for each button
+- [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess.
+- [x] User wins the game after guessing a complete pattern
+- [x] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
-- [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-- [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-- [ ] More than 4 functional game buttons
-- [ ] Playback speeds up on each turn
-- [ ] Computer picks a different pattern each time the game is played
-- [ ] Player only loses after 3 mistakes (instead of on the first mistake)
-- [ ] Game button appearance change goes beyond color (e.g. add an image)
+- [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+- [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+- [x] More than 4 functional game buttons
+- [x] Playback speeds up on each turn
+- [x] Computer picks a different pattern each time the game is played
+- [x] Player only loses after 3 mistakes (instead of on the first mistake)
+- [x] Game button appearance change goes beyond color (e.g. add an image)
 - [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-- [ ] User has a limited amount of time to enter their guess on each turn
+- [x] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] Added difficulty selection dropdown that changes the amount of time players get to make a guess
+- [x] Added difficulty selection dropdown that changes the amount of time players get to make a guess
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
+**Minimum Requirements:**
+
 Features of the game including starting and stopping, losing, and clicking on each of the buttons:
 ![](https://i.imgur.com/hCbPArO.gif)
 
-Gif of winning the game:
+Gif of winning the game:<br>
 ![](https://i.imgur.com/xD6jsmK.gif)
+
+
+**Optional Features:**
+
+More buttons added, each button has an image, players are allowed 3 mistakes, and players can also choose a difficulty level that changes the time they get per guess:<br>
+![](https://i.imgur.com/HwhvmW1.gif)
+
+
+Last clue sequence shown, with sped up and random sequence. If the timer runs out, the game does not end, but counts as a single mistake instead:<br>
+![](https://i.imgur.com/rThgsY8.gif)
 
 ## Reflection Questions
 
@@ -59,6 +71,7 @@ Gif of winning the game:
 - [Rabbit image](https://unsplash.com/photos/--SDX4KWIbA)
 - [Chicken image](https://unsplash.com/photos/qYiAxsaflCQ)
 - [Markdown syntax](https://www.markdownguide.org/basic-syntax/)
+- [Creating the Gifs](https://ezgif.com/)
 
 2) What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
    <br><br>Figuring out how to get the timer to work for each individual guess was very challenging for me personally. Getting the HTML and 

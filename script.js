@@ -24,6 +24,7 @@ var clueHoldTime = 1000; // how long to hold each clue's light/sound - decreases
 
 function startGame(){
   //initialize game variables
+  clueHoldTime = 1000; // reset clueHoldTime
   progress = 0;
   numMistakes = 0;
   gamePlaying = true;
