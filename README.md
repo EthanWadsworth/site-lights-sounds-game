@@ -40,11 +40,24 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+**Minimum Requirements:**
+
 Features of the game including starting and stopping, losing, and clicking on each of the buttons:
 ![](https://i.imgur.com/hCbPArO.gif)
 
-<br>Gif of winning the game:<br>
+
+Gif of winning the game:<br>
 ![](https://i.imgur.com/xD6jsmK.gif)
+
+
+**Optional Features:**
+
+More buttons added, each button has an image, players are allowed 3 mistakes, and players can also choose a difficulty level that changes the time they get per guess:<br>
+![](https://i.imgur.com/HwhvmW1.gif)
+
+
+Last clue sequence shown, with sped up and random sequence. If the timer runs out, the game does not end, but counts as a single mistake instead:<br>
+![](https://i.imgur.com/rThgsY8.gif)
 
 ## Reflection Questions
 
@@ -59,6 +72,7 @@ Features of the game including starting and stopping, losing, and clicking on ea
 - [Rabbit image](https://unsplash.com/photos/--SDX4KWIbA)
 - [Chicken image](https://unsplash.com/photos/qYiAxsaflCQ)
 - [Markdown syntax](https://www.markdownguide.org/basic-syntax/)
+- [Creating the Gifs](https://ezgif.com/)
 
 2) What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
    <br><br>Figuring out how to get the timer to work for each individual guess was very challenging for me personally. Getting the HTML and 
